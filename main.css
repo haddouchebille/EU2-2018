@@ -1,0 +1,120 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+
+.container-fluid{
+	padding : 0;
+}
+
+.navbar{
+	background-color: red;
+}
+
+#aide{
+	display: none;
+}
+
+#ContainResult{
+	display: none;
+}
+
+#ContainResult:before{
+	content: "";
+	display: block;
+	margin-top: 15px;
+	height: 1px;
+	width: 50%;
+	margin-left: 25%;
+	background-color: black;
+}
+
+#ContainResult:after{
+	content: "";
+	display: block;
+	margin-top: 15px;
+	height: 1px;
+	width: 50%;
+	margin-left: 25%;
+	background-color: black;
+}
+
+
+#result{
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+
+#result h3{
+	margin : 0;
+}
+
+#result h4{
+	display: inline;
+}
+
+#glyphicon-remove-circle{
+	top: 0;
+	left : 0;
+	font-size: 50px; 
+}
+
+
+#errorMsg{
+	display: none;
+	width: 50%;
+	margin-left: 25%;
+	background-color: #fb6d6d;
+	text-align: center;
+	border-radius: 7px;
+}
+
+
+.aide{
+	color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: #a5a5a5;
+}
+
+#listSnomedName{
+	list-style-type: circle;
+    list-style: darkviolet;
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#listSnomedName li:nth-child(odd){
+	background-color: #95f6ff;
+}
+
+#listSnomedName li:hover{
+	cursor: pointer;
+	background-color: #8A949E;
+}
+
+#listSnomedName h4{
+	font-size: 15px;
+}
+
+#listSnomedName h3{
+	color : #de4a4a;
+}
+
+#banniere{
+	background-image: url(../img/bill.jpg);	
+	height: 266px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #435f8e;
+}
+
+.headerForm{
+	background-color: #aa9dfd;
+	padding-top : 1%;
+	padding-bottom : 1%;
+}
